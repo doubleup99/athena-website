@@ -1,0 +1,158 @@
+/* Header section begins here*/
+body{
+    margin:0px;
+}
+header {
+    background: linear-gradient(to right,rgba(50, 50, 50, 0),rgba(50, 50, 50, 1));
+    color: white;
+    position: fixed;
+    width: 100%;
+    margin:0px;
+}
+
+header h1 {
+    float: left;
+    padding: 3px 0px 0px 15px;
+    color: black;
+    margin: 0px;
+    font-size: 300%;
+}
+
+header img {
+    height: 55px;
+    padding-top:3px;
+    padding-left:3px;
+    float:left;
+}
+
+nav{
+    float: right;
+    position: relative;
+    padding:30px 10px 0px 0px;
+
+}
+nav>ul {
+    list-style-type: none;
+    margin:0px;
+}
+
+nav>ul>li {
+    display: inline;
+    /*border-bottom: 2px solid black;*/
+    margin: 0px 10px;
+    padding: 5px;
+    /*border-radius: 15px 15px 0px 0px;*/
+}
+
+.active{
+    border-bottom: 2px solid red;
+}
+
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+nav>ul>li>a:hover{
+    color: grey;
+}
+
+nav>ul>li>a:active{
+    color: red;
+}
+
+/* HERO SECTION BEGINS HERE */
+
+.hero{
+    background-image: url("../img/hero1a.jpg");
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    height: 350px;
+    padding-top: 150px;
+}
+
+.hero>h1{
+    margin:0px;
+    color: black;
+    text-align: center;
+    width:30%;
+    float:right;
+}
+
+.hero>h2{
+    margin:0px;
+    clear: right;
+    float:right;
+}
+
+/*HERO SECTION ENDS HERE*/
+
+/*SIDEBAR SECTION*/
+
+
+aside{
+    background-color: white;
+    border-right: 2px solid black;
+    width: 30%;
+    height: 300px;
+    float:left;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+aside ul li{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+aside ul li:hover{
+    background-color: black;
+    color:white;
+    border: 1px dotted white;
+}
+
+aside ul li:hover a {
+    color:white ;
+    font-weight: 900;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* SIDEBAR SECTION ENDS HERE*/
+
+/*FLOW-CHART SECTION BEGINS HERE*/
+
+.flowchart{
+    width:69%;
+    float:right;
+    text-align:center;
+    height:300px;
+}
+
+.flowchart i{
+    margin: 1% 5%;
+}
+
+.flowchart p{
+    display: inline;
+}
+
+
+.flowchart h2{
+    display: inline;
+    margin: 79px;
+}
+
+.flowwords{
+    padding-left: 60px;
+}
